@@ -1,0 +1,71 @@
+.login-container {
+  /* background-color: #f5deb3; */
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  /* min-height: 420px; */
+  width: 100%;
+  background: linear-gradient(85deg, #e5c993, #8a692c);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:active,
+input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+.submitBtn {
+  width: 100%;
+  /* padding: 10px; */
+  margin-top: 16px;
+  padding: 1.1em 1.2em;
+  background-color: #131212;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #06010a;
+}
+
+form {
+  padding: 20px;
+}
+
+.signUp {
+  width: 100%;
+  margin: 1.2em 0 0 0;
+  background-color: transparent;
+  text-align: center;
+  color: #06010a;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.signUp:hover,
+.signUp:focus-visible {
+  background-color: transparent;
+  text-decoration: underline;
+  color: #06010a;
+  outline: none;
+}
+
+.signUp:focus {
+}
