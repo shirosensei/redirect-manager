@@ -69,3 +69,24 @@ form {
 
 .signUp:focus {
 }
+
+@media (max-width: 400px) {
+  .login-container {
+    padding: 10px;
+    font-weight: 500;
+  }
+
+  h2 {
+    padding: 1rem 0;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .submitBtn {
+    padding: 0.71em;
+  }
+}
